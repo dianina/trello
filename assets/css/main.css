@@ -1,28 +1,66 @@
 body{
 	font-family: Arial, "Helvetica Neue", 
 	Helvetica, sans-serif;
-	background-image: url(img/fondo.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment: fixed;
+}
 
-}	
 /* contenedor encabezado*/
-#titular{
+#encabezado{
 	background-color: #026AA7;
 	color: #fff;
 	text-align:center;
-	height: 100px;
+	height: 75px;
 	width: 1280px;
 	position: relative;	
 	margin-top: -22px;
 	margin-left: -8px;
+	position: fixed;
 }
 
 /* Logo Trello*/
 #logo {
-	height: auto;
+	height: 100%;
 	width: 14%;
 	opacity: 0.5;
-	padding-top: 8px;
+	padding-top: 0px;
 }
+
+/* Link Tableros*/
+
+#tableros_cont .fondo_tabl {
+	width: 150px;
+	height: 40px;
+	padding-top: 0px; 
+	border-color: #C5C2C2;
+	float: left;
+	background-color: #67A6CA;
+	display: inline-block;
+	margin-top: -55px;
+	margin-left: 15px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 5px;
+}
+
+/* H1 Tableros*/
+#tableros_cont .txt_tabl h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 19px;
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+	margin-top: 9px;
+}
+/* Icono Tableros*/
+
+#tableros_cont .fondo_tabl img{
+	height: 70%;
+	width: 20%;
+	display: inline-block;
+	padding-left: 0px;
+	margin-left: 13px;
+	margin-top: 6px;
+	float: left;
+}
+
+
