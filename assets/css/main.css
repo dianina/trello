@@ -13,7 +13,6 @@ body{
 	position: relative;	
 	margin-top: -22px;
 	margin-left: -8px;
-	position: fixed;
 }
 
 /* Logo Trello*/
@@ -84,4 +83,65 @@ body{
 	padding-right: 5px;
 	margin-right: -120px;
 	margin-top: 10px;
+}
+
+/* Main section */
+/* Contenedor blanco */
+#contenedor{
+	background-color: #FFF;
+	text-align:left;
+	height: 100%;
+	width: 101%;
+	position: absolute;	
+	margin-top: 0px;
+	margin-left: -8px;
+	border-width: 2px solid;
+}
+/* Icono usuario */
+.icon_user i{
+	color: grey;
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+	padding-right: 15px;
+}
+/* Txt "Tableros Personales" */
+#contenedor .txt_contenedor h1{
+	font-size: 19px;
+	float: left;
+	display: inline;
+	margin-top: 19px;
+}
+
+/* Contenedor Laboratoria */
+#cont_laboratoria .fondo_lab{
+	background-color: #005B8F;
+	border-radius: 5px;
+	height: 95px;
+	width: 300px;
+	float: left;
+	display: inline;
+	margin-top: 50px;
+	margin-left: -212px;
+}
+/* Txt "Laboratoria" */
+#cont_laboratoria .txt_lab h1{
+	font-size: 19px;
+	color: #fff;
+	float: left;
+	
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+/* Contenedor Tabl.Bienvenida verde */
+#cont_bienvenida .fondo_welcome{
+	background-color: #388F50F;
+	border-radius: 5px;
+	height: 95px;
+	width: 300px;
+	float: left;
+	
+	margin-top: 50px;
+	margin-left: -212px;
 }
