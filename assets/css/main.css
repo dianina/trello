@@ -129,19 +129,35 @@ body{
 	font-size: 19px;
 	color: #fff;
 	float: left;
-	
 	margin-top: 8px;
 	margin-left: 8px;
 }
 
 /* Contenedor Tabl.Bienvenida verde */
 #cont_bienvenida .fondo_welcome{
-	background-color: #388F50F;
+	background-color: #388F50;
 	border-radius: 5px;
 	height: 95px;
 	width: 300px;
-	float: left;
-	
+	display: inline-block;
+	/* alinear horizontalmente inline */
 	margin-top: 50px;
-	margin-left: -212px;
+	margin-left: 15px;
 }
+/* Txt "Bienvenida" */
+#cont_bienvenida .txt_bienvenida h1{
+	font-size: 19px;
+	color: #fff;
+	float: left;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+/* Contenedor Tablero nuevo */
+#cont_new .fondo_new{
+	background-color: #D6DADC;
+	border-radius: 5px;
+	height: 95px;
+	width: 300px;
+	float: right;
+	margin-top: -99px;
+	margin-right: 305px;
