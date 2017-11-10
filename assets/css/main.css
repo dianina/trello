@@ -161,3 +161,11 @@ body{
 	float: right;
 	margin-top: -99px;
 	margin-right: 305px;
+}
+/* Agregando (tareas) */
+#cont_tareas textarea{
+	padding-top: 0px;
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 10px;
+}
