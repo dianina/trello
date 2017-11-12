@@ -162,10 +162,20 @@ body{
 	margin-top: -99px;
 	margin-right: 305px;
 }
-/* Agregando (tareas) */
-#cont_tareas textarea{
-	padding-top: 0px;
-	display: inline-block;
-	margin-top: 30px;
-	margin-left: 10px;
+
+#contenedorlista {
+	float: right;
+	margin-right: 313px;
+	margin-top: -70px;
 }
+
+#lista-input{
+	margin-right: 305px;
+	float: right;
+	background-color: #D6DADC;
+	border-radius: 5px;
+	height: 95px;
+	width: 300px;
+
+}
+
