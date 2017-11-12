@@ -1,4 +1,5 @@
 	var nuevoInput= function(){
+		//caja para añadir nueva lista
 		var crearInput = document.createElement("input");
 		var contenidoinput = document.createTextNode(" ");
 		crearInput.setAttribute("type", "text");
@@ -9,6 +10,7 @@
 	};
 
 	var nuevoBoton= function(){
+		//func. para crear nueva lista
 		var crearBoton = document.createElement("button");
 		var contenidoboton = document.createTextNode("Crear nueva lista");
 		crearBoton.setAttribute("id", "boton-creado");
@@ -18,6 +20,7 @@
 	};
 
 	var mostrarTarea = function(){
+		//func. mostrar esa nueva tarea
 		var valorInput = document.getElementById("input-creado").value;
 		document.getElementById("lista-input").appendChild(valorInput);
 	};
@@ -32,6 +35,7 @@
 
 
 		function presionBoton(){
+			//botón activo para crear nueva lista
 			var textoNuevaLista= document.getElementById("input-creado").value;
 			var textoACaja=document.getElementById("lista-input");
 			var textoEnNodo= document.createTextNode(textoNuevaLista);

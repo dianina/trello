@@ -162,13 +162,13 @@ body{
 	margin-top: -99px;
 	margin-right: 305px;
 }
-
+/* Contenedor listas añadidas */
 #contenedorlista {
 	float: right;
 	margin-right: 313px;
 	margin-top: -70px;
 }
-
+/* Contenedor nueva lista */
 #lista-input{
 	margin-right: 305px;
 	float: right;
